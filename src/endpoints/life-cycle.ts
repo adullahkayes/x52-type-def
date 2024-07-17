@@ -1,0 +1,18 @@
+export enum LIFECYCLE_STAGES_DEV_HOUSE {
+    DEFINITION,
+    CYCLE_INIT,
+    WRITE_UP,
+    TESTING,
+    REVIEW
+};
+
+export enum LIFECYCLE_STAGES_UAT {
+    CHECK,
+    UAT,
+    STAGING
+};
+
+export enum LIFECYCLE_STAGES_PRODUCTION {
+    PRE_PRODUCTION,
+    PRODUCTION
+};
